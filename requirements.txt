@@ -1,0 +1,9 @@
+torch
+torchaudio
+soundfile
+librosa
+matplotlib
+numpy
+tqdm
+pyroomacoustics
+pyctcdecode

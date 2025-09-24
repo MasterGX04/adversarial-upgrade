@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+**/__pycache__/
+
+# Ignore all top-level directories by default...
+/*/
+
+# ...but keep these two directories
+!/Librispeech/
+!/adv_outputs/
+
+Librispeech/*/
+adv_outputs/*/
+
+# Ignore common generated files
+*.wav
+*.png
+*.csv
+
+# Ignore Python cache
+__pycache__/
